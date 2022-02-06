@@ -12,12 +12,12 @@
       name: "{{mywebpackforubuntu}}"
       state: started 
     when: ansible_os_family=="Debian" 
-  - name: i want to install webserver on ansible redhatnode 
+  - name: i want to install webserver on ansible Redhatnode 
     apt:
       name: "{{mywebpackforredhat}}"
       state: present
     when: ansible_os_family=="RedHat" 
-  - name: i want to start webserver on only ansible redhatnode 
+  - name: i want to start webserver on only ansible Redhatnode 
     service:
       name: "{{mywebpackforredhat}}"
       state: started 
