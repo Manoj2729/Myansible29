@@ -1,0 +1,7 @@
+--- 
+  mystudents:
+  - name: anil
+    phno: 888
+    address: 
+      - doorno: 545
+      - place: hyd
