@@ -1,2 +1,13 @@
+[mywebservers]
 172.31.21.92
+172.31.24.34
+
+[myapplicationservers]
+172.31.21.18
+172.31.24.10
+
+[myubuntuservers]
+172.31.21.92
+
+[myredhatservers]
 172.31.24.34
