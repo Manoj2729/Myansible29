@@ -1,7 +1,16 @@
 --- 
-  mystudents:
-  - name: anil
-    phno: 888
-    address: 
-      - doorno: 545
-      - place: hyd
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install git on ubuntu node
+    apt:
+      name: git
+      state: present
+  - name: i want to install tree on ubuntu node
+    apt:
+      name: tree
+      state: present
+  - name: i want to install wget on ubuntu node
+    apt:
+      name: wget
+      state: present
