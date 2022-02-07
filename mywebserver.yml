@@ -9,8 +9,8 @@
     when: ansible_os_family=="Debian" 
   - name: i want to start webserver on aonly ansible ubuntu 
     service:
-      name: "{{mywebpackforubuntu}}"
-      state: started 
+       name: "{{mywebpackforubuntu}}"
+       state: started 
     when: ansible_os_family=="Debian" 
   - name: i want to install webserver on ansible Redhatnode 
     apt:
@@ -19,6 +19,6 @@
     when: ansible_os_family=="RedHat" 
   - name: i want to start webserver on only ansible Redhatnode 
     service:
-      name: "{{mywebpackforredhat}}"
-      state: started 
+       name: "{{mywebpackforredhat}}"
+       state: started 
     when: ansible_os_family=="RedHat"
