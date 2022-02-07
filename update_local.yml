@@ -1,6 +1,0 @@
-- name: Update local system
-  hosts:  127.0.0.1
-  sudo: True
-
-  tasks:
-    - apt: name=python-boto update_cache=yes
