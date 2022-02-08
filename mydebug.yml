@@ -17,4 +17,4 @@
     apt: 
       name: git
       state: present  
-    when: myresult.stdrr !=""  
+    when: myresult.stderr !=""  
