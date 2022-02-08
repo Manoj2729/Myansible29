@@ -1,0 +1,9 @@
+--- 
+- hosts: 172.31.21.92 
+  become: yes 
+  tasks: 
+  - name: create a file on nodeside 
+    file: 
+       path: /home/ubuntu/testfile
+       state: touch 
+       
