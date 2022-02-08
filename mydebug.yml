@@ -3,7 +3,7 @@
   become: yes 
   tasks: 
   - name: i want to execute linux command directly by playbook 
-    command: host_name -f 
+    command: hostname -f 
     register: myresult
   - name: i want to display my first task result 
     debug: 
