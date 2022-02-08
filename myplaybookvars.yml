@@ -1,0 +1,11 @@
+--- 
+- hosts: 172.31.21.192
+  become: yes 
+  vars: 
+     myvars1: git 
+     myvars2: tree 
+     myvars3: wget 
+  tasks: 
+  - name: install tree 
+    apt: i want to display myvar1 
+      name:"{{myvar1}}"
