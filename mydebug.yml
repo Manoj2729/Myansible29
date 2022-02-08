@@ -7,14 +7,14 @@
     register: myresult
   - name: i want to display my first task result 
     debug: 
-      msg: "{{myresult}}"
+      msg: "{{ myresult}}"
   - name: install tree 
     apt: 
       name: tree 
       state: present 
-    when: myresult.stderr==" "  
+    when: myresult.stderr ==""  
   - name: install tree 
     apt: 
       name: tree 
       state: present  
-    when: myresult.stdrr==!""  
+    when: myresult.stdrr !=""  
