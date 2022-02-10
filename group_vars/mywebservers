@@ -8,4 +8,3 @@ mywebpackforredhat: httpd
 
 myjavaonubuntu: openjdk-8-jre
 myjavaonRedhat: java-1.8.0-openjd
-myjavaonubuntu: openjdk-10-jre
